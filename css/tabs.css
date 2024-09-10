@@ -1,1 +1,17 @@
+.hide { position: absolute; top: -9999px; left: -9999px; }
 
+#servicosTabsDois .list-wrap { background: #dfdfdf; padding: 5px; margin: -26px 0 15px 0; font-size: 10px; line-height: 5px; text-align: justify;}
+
+#servicosTabsDois .list-wrap li{ width:360px; float:left;}
+
+#servicosTabsDois ul { list-style: none; display:inline-block;}
+
+#servicosTabsDois .nav { overflow: hidden;}
+#servicosTabsDois .nav li {float: left; margin: 0 10px 0 0;}
+#servicosTabsDois .nav li.last { margin-right: 0;}
+#servicosTabsDois .nav li a { display: block; text-decoration: none; padding: 5px ; background: #666; color: #fff; font-size: 12px; text-align: center; border: 0;}
+
+#servicosTabsDois li a.current,#servicosTabsDois li a.current:hover { background-color: #dfdfdf !important; color: #000;}
+#servicosTabsDois .nav li a:hover, #servicosTabsDois .nav li a:focus { background: #999;}
+#servicosTabsDois ul li.nav-one a.current, #servicosTabsDois ul.featured li a:hover { background-color: #0575f4; color: #000;}
+#servicosTabsDois ul li.nav-two a.current, #servicosTabsDois ul.core li a:hover { background-color: #d30000; color: #000;}
